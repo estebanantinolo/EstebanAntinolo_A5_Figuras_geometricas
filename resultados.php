@@ -55,8 +55,6 @@ $nombre = "Triángulo";
 }
 
 // calcular area y perimetro
-$area = $figura->calcularArea();
-$perimetro = $figura->calcularPerimetro();
 
 ?>
 
@@ -74,8 +72,6 @@ $perimetro = $figura->calcularPerimetro();
 
 <img src="<?php echo './img/' . $forma . '.png'; ?>" style="width: 100px">
 <p>Figura y medida/s: <?php echo $figura; ?></p>
-<p>El perímetro es: <?php echo $perimetro ?></p>
-<p>El area es: <?php echo $area ?></p>
 
 <form action="formulario.php" method="POST">
     <input type="hidden" name="forma" value="<?php echo $forma; ?>">

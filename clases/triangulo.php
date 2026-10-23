@@ -41,7 +41,7 @@ class triangulo extends figuraGeometrica {
     }
 
     function __toString() {
-    return $this->getTipoFigura() . "Lado 1: " . $this->getLado1() . ", Lado 2: " . $this->getLado2() . ", Lado 3: " . $this->getLado3();
+    return $this->getTipoFigura() . " Lado 1: " . $this->getLado1() . ", Lado 2: " . $this->getLado2() . ", Lado 3: " . $this->getLado3() . ", Área: " . $this->calcularArea() . ", Perímetro: " . $this->calcularPerimetro();
     }
 
     function __destruct() {

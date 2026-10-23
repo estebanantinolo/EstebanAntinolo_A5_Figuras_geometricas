@@ -18,7 +18,7 @@ class circulo extends figuraGeometrica {
     }
 
     function __toString() {
-    return $this->getTipoFigura() . " Lado 1: " . $this->getLado1();
+    return $this->getTipoFigura() . " Lado 1: " . $this->getLado1() . ", Área: " . $this->calcularArea() . ", Perímetro: " . $this->calcularPerimetro();
     }
 
     function __destruct() {
